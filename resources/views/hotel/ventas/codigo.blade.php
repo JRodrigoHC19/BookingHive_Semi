@@ -175,7 +175,7 @@
       const searchResults = document.querySelector('.search-results');
 
       const lista = [];
-      @foreach ($hoteles_full as $hot)
+      @foreach ($hoteles_fullas $hot)
           lista.push('{{ $hot->titulo }}');
       @endforeach
 
@@ -221,10 +221,6 @@
       });
     </script>
 
-    <!-- ADIICIONALES -->
-    <script src="{{ asset('storage/js/animaciones.js') }}"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
-    <!-- <script src="sweetalert2/dist/weetalert2.all.min.js"></script> -->
     <script>
         function copyToClipboard() {
             var copyText = document.getElementById("randomString");
@@ -234,6 +230,15 @@
             alert("¡Texto copiado!");
         }
     </script>
+
+    <!-- ADIICIONALES -->
+    <script src="{{ asset('storage/js/animaciones.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- <script src="sweetalert2/dist/weetalert2.all.min.js"></script> -->
+
+    <!-- NO SE PARA QUE SERÁ -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+    
 </body>
 
 </html>
