@@ -147,7 +147,7 @@
                 </div>
 
             </div>
-        </nav><br/><br/><br/> 
+        </nav><br/><br/><br/>
       
         <!-- ESTE ES EL CONTENIDO QUE SE MUESTRA - TIENES QUE ESTAR LOGEADO -->
         <div class="card row">
